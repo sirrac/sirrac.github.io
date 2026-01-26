@@ -1,0 +1,67 @@
+.cv {
+  background-color: var(--bg-secondary);
+}
+
+.cv-content {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.cv-card {
+  background-color: white;
+  padding: 3rem;
+  border-radius: 1rem;
+  box-shadow: var(--shadow-md);
+  text-align: center;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+
+.cv-card:hover {
+  box-shadow: var(--shadow-xl);
+  transform: translateY(-5px);
+}
+
+.cv-card-icon {
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
+}
+
+.cv-card-title {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+}
+
+.cv-card-description {
+  color: var(--text-secondary);
+  font-size: 1.125rem;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.cv-card .btn {
+  margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+  .cv-card {
+    padding: 2rem;
+  }
+
+  .cv-card-icon {
+    font-size: 3rem;
+  }
+
+  .cv-card-title {
+    font-size: 1.5rem;
+  }
+
+  .cv-card-description {
+    font-size: 1rem;
+  }
+}
+
