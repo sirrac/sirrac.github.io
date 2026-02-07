@@ -7,7 +7,7 @@ import CV from './components/CV'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import './App.css'
-
+//just something so i can commit
 function App() {
   return (
     <div className="App">
