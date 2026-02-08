@@ -68,7 +68,9 @@
 }
 
 .project-description {
+  font-size: 1.1rem;
   color: var(--text-secondary);
+  font-weight: 500;
   margin-bottom: 1.5rem;
   flex: 1;
   line-height: 1.6;
@@ -85,7 +87,7 @@
   padding: 0.25rem 0.75rem;
   background-color: var(--bg-secondary);
   border-radius: 0.375rem;
-  font-size: 0.875rem;
+  font-size: 1.1rem;
   color: var(--text-secondary);
   font-weight: 500;
 }

@@ -20,10 +20,9 @@ const Hero = () => {
     <section id="home" className="hero">
       <div className="hero-content">
         <h1 className="hero-title">
-          <span className="greeting">Hi, I'm</span>
           <span className="name">Srikar Girijala</span>
         </h1>
-        <p className="hero-subtitle">Software Developer & Creative Problem Solver</p>
+        <p className="hero-subtitle">Computer Science student at UIUC</p>
         <div className="hero-buttons">
           <button onClick={scrollToProjects} className="btn btn-primary">View My Work</button>
           <button onClick={scrollToContact} className="btn btn-primary">Get In Touch</button>

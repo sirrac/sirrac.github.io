@@ -37,14 +37,6 @@
   line-height: 1.2;
 }
 
-.greeting {
-  display: block;
-  font-size: 2rem;
-  font-weight: 300;
-  margin-bottom: 0.5rem;
-  opacity: 0.9;
-}
-
 .name {
   display: block;
   font-size: 4.5rem;
@@ -55,10 +47,10 @@
 }
 
 .hero-subtitle {
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   margin-bottom: 2.5rem;
   opacity: 0.9;
-  font-weight: 299;
+  font-weight: 500;
 } 
 
 .hero-buttons {
@@ -107,16 +99,12 @@
     font-size: 2.5rem;
   }
 
-  .greeting {
-    font-size: 1.5rem;
-  }
-
   .name {
     font-size: 3rem;
   }
 
   .hero-subtitle {
-    font-size: 1.25rem;
+    font-size: 1.1rem;
   }
 
   .hero-buttons {

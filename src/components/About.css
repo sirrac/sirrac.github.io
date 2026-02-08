@@ -10,25 +10,38 @@
 .about-text p {
   margin-bottom: 1.5rem;
   color: var(--text-secondary);
-  font-size: 1.125rem;
+  font-size: 1.1rem;
+  font-weight: 500;
   line-height: 1.8;
 }
 
 .about-text .lead {
-  font-size: 1.5rem;
+  font-size: 1.35rem;
   color: var(--text-primary);
   font-weight: 500;
+  line-height: 1.7;
+  margin-bottom: 1.25rem;
+}
+
+.about-text .about-cta {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  font-weight: 500;
   margin-bottom: 2rem;
+  padding-left: 0.25rem;
 }
 
 .skills {
-  margin-top: 3rem;
+  margin-top: 2.5rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border-color);
 }
 
 .skills h3 {
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   margin-bottom: 1.5rem;
-  color: var(--text-primary);
+  color: var(--text-secondary);
+  font-weight: 500;
 }
 
 .skills-grid {

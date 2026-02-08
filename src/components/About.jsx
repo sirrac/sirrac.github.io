@@ -10,7 +10,13 @@ const About = () => {
     'HTML/CSS',
     'Git',
     'SQL',
-    'TypeScript'
+    'TypeScript',
+    'C/C++',
+    'R', 
+    'MongoDB',
+    'PostgreSQL',
+    'ReactJS', 
+    
   ]
 
   return (
@@ -20,15 +26,10 @@ const About = () => {
         <div className="about-content">
           <div className="about-text">
             <p className="lead">
-              I'm a passionate software developer with a love for creating elegant solutions to complex problems.
+              I'm a third year student at the University of Illinois at Urbana-Champaign, pursuing a degree in Computer Science and Statistics.
             </p>
-            <p>
-              With a strong foundation in software development, I enjoy building applications that are both functional and user-friendly. 
-              I'm constantly learning new technologies and methodologies to stay at the forefront of the industry.
-            </p>
-            <p>
-              When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, 
-              or working on personal projects that challenge my skills.
+            <p className="about-cta">
+              Check below for a sample of some of my work!
             </p>
             <div className="skills">
               <h3>Skills & Technologies</h3>

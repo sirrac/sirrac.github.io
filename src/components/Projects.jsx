@@ -4,25 +4,22 @@ import './Projects.css'
 const Projects = () => {
   const projects = [
     {
-      title: 'Project Title',
-      description: 'A brief description of the project, highlighting key features and technologies used.',
-      tech: ['React', 'Node.js', 'MongoDB'],
-      demoLink: '#',
-      githubLink: '#'
+      title: 'Paper Processor LLM',
+      description: 'Leveraging NLP models to summarize academic papers and generate insights, knowledge graphs, and visualizations.',
+      tech: ['NLP', 'scikit-learn', 'sentence-transformers', 'Python'],
+      githubLink: 'https://github.com/sirrac/PaperProcessor'
     },
     {
-      title: 'Project Title',
-      description: 'A brief description of the project, highlighting key features and technologies used.',
-      tech: ['Python', 'Flask', 'PostgreSQL'],
-      demoLink: '#',
-      githubLink: '#'
+      title: 'UIUC Amenity Ranker',
+      description: 'Ranking the quality of amenities at the University of Illinois at Urbana-Champaign. Uses Python, React.js, PostgreSQL, FastAPI.',
+      tech: ['Python', 'React.js', 'PostgreSQL', 'FastAPI'],
+      githubLink: 'https://github.com/sirrac/PaperProcessor'
     },
     {
-      title: 'Project Title',
-      description: 'A brief description of the project, highlighting key features and technologies used.',
-      tech: ['JavaScript', 'CSS3', 'API'],
-      demoLink: '#',
-      githubLink: '#'
+      title: 'Chip-8 Emulator',
+      description: 'Emulating the Chip-8 architecture with C++.',
+      tech: ['C++'],
+      githubLink: 'https://github.com/sirrac/Chip8-Emulator'
     }
   ]
 
@@ -46,7 +43,6 @@ const Projects = () => {
                   ))}
                 </div>
                 <div className="project-links">
-                  <a href={project.demoLink} className="project-link" target="_blank" rel="noopener noreferrer">Live Demo</a>
                   <a href={project.githubLink} className="project-link" target="_blank" rel="noopener noreferrer">GitHub</a>
                 </div>
               </div>

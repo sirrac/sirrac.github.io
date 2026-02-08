@@ -11,7 +11,7 @@ const CV = () => {
             <div className="cv-card-icon">📄</div>
             <h3 className="cv-card-title">Download My Resume</h3>
             <p className="cv-card-description">View my professional experience and qualifications</p>
-            <a href="#" className="btn btn-primary" download>Download CV (PDF)</a>
+            <a href="/Srikar_Girijala_Resume_2026.pdf" className="btn btn-primary" download="Srikar_Girijala_Resume_2026.pdf">Download CV (PDF)</a>
           </div>
         </div>
       </div>
