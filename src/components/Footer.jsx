@@ -1,7 +1,7 @@
 import React from 'react'
 import './Footer.css'
 
-const Footer = () => {
+const Footer = () => { //Footer
   return (
     <footer className="footer">
       <div className="container">
@@ -11,7 +11,7 @@ const Footer = () => {
           <a href="https://www.linkedin.com/in/srikar-girijala-9b70ba24a/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
         </div>
       </div>
-    </footer>
+    </footer> 
   )
 }
 
