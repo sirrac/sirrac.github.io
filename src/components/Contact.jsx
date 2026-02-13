@@ -1,75 +1,46 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './Contact.css'
 
 const Contact = () => {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    message: ''
-  })
-
-  const handleChange = (e) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value
-    })
-  }
-
-  const handleSubmit = (e) => {
-    e.preventDefault()
-    const subject = encodeURIComponent('Portfolio contact form')
-    const body = encodeURIComponent(
-      `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
-    )
-
-    window.location.href = `mailto:srikargirijala1@gmail.com?subject=${subject}&body=${body}`
-
-    alert('Thank you for your message! Your email client should now open with the message.')
-    setFormData({ name: '', email: '', message: '' })
-  }
-
   return (
     <section id="contact" className="section contact">
       <div className="container">
         <h2 className="section-title">Get In Touch</h2>
         <p className="section-subtitle">I'm always open to discussing new opportunities and interesting projects.</p>
         <div className="contact-content">
-          <form className="contact-form" onSubmit={handleSubmit}>
-            <div className="form-group">
-              <label htmlFor="name">Name</label>
-              <input 
-                type="text" 
-                id="name" 
-                name="name" 
-                value={formData.name}
-                onChange={handleChange}
-                required 
-              />
+          <div className="contact-card">
+            <div className="contact-item">
+              <span className="contact-label">Email</span>
+              <a
+                href="mailto:srikargirijala1@gmail.com"
+                className="contact-link"
+              >
+                srikargirijala1@gmail.com
+              </a>
             </div>
-            <div className="form-group">
-              <label htmlFor="email">Email</label>
-              <input 
-                type="email" 
-                id="email" 
-                name="email" 
-                value={formData.email}
-                onChange={handleChange}
-                required 
-              />
+            <div className="contact-item">
+              <span className="contact-label">GitHub</span>
+              <a
+                href="https://github.com/sirrac"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="contact-link"
+              >
+                github.com/sirrac
+              </a>
             </div>
-            <div className="form-group">
-              <label htmlFor="message">Message</label>
-              <textarea 
-                id="message" 
-                name="message" 
-                rows="5" 
-                value={formData.message}
-                onChange={handleChange}
-                required
-              ></textarea>
+            <div className="contact-item">
+              <span className="contact-label">LinkedIn</span>
+              <a
+                href="https://www.linkedin.com/in/srikar-girijala-9b70ba24a/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="contact-link"
+              >
+                linkedin.com/in/srikar-girijala-9b70ba24a
+              </a>
             </div>
-            <button type="submit" className="btn btn-primary">Send Message</button>
-          </form>
+          </div>
         </div>
       </div>
     </section>

@@ -2,7 +2,8 @@ import React from 'react'
 import './CV.css'
 
 const CV = () => {
-  const resumeUrl = `${import.meta.env.BASE_URL}Srikar_Girijala_Resume_2026.pdf`
+  // Files from public/ are served at the root, so use absolute path
+  const resumeUrl = '/Srikar_Girijala_Resume_2026.pdf'
 
   return (
     <section id="cv" className="section cv">

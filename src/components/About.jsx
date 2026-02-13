@@ -15,8 +15,10 @@ const About = () => {
     'R', 
     'MongoDB',
     'PostgreSQL',
-    'ReactJS', 
+    'ReactJS',
+    'Java',
     
+  
   ]
 
   return (
