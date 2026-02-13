@@ -17,9 +17,14 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    // Handle form submission here
-    console.log('Form submitted:', formData)
-    alert('Thank you for your message! I will get back to you soon.')
+    const subject = encodeURIComponent('Portfolio contact form')
+    const body = encodeURIComponent(
+      `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
+    )
+
+    window.location.href = `mailto:srikargirijala1@gmail.com?subject=${subject}&body=${body}`
+
+    alert('Thank you for your message! Your email client should now open with the message.')
     setFormData({ name: '', email: '', message: '' })
   }
 
